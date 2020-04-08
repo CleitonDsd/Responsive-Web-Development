@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* todas tags irão usar essa fonte por conta da declaração abaixo */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(42, 98, 172);
+}
+
+.conteudo-tabela {
+    margin: 10px auto;
+    font-size: 18px;
+    width: 800px;
+    /* border: 1px solid #000; */
+    border-collapse: collapse;
+    font-weight: 600;
+}
+
+.conteudo-tabela thead tr {
+    background: rgb(42, 98, 172);
+    color: #fff;
+    text-align: left;
+}
+
+.conteudo-tabela th,
+.conteudo-tabela td {
+    padding: 15px;
+}
+
+.conteudo-tabela tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* formata todas as linhas pares da tabela */
+
+.conteudo-tabela tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+/* formata a ultima linha da tabela */
+
+.conteudo-tabela tbody tr:last-child {
+    background: #f9f9f9;
+    border-bottom: 20px solid rgb(42, 98, 172);
+}
+
+
+/* alterar a cor ao passar o mouse na linha */
+
+.conteudo-tabela tbody tr:hover {
+    font-weight: 900;
+    color: rgb(42, 98, 172);
+}
+
+.conteudo-tabela tfoot {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
