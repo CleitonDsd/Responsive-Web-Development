@@ -1,0 +1,24 @@
+/*
+row-reverse - deixa os elementos um ao lado do outro só quem em ordem inversa - a partir da direita
+ */
+
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box{
+
+  width: 20%;
+  min-width: 200px;
+  height: 120px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+/* class para cada um dos boxes - personalizando cada um */
+.box-1{background: #666;}
+.box-2{background: #888;}
+.box-3{background: #aaa;}
+.box-4{background: #ccc;}

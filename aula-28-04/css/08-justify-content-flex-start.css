@@ -1,0 +1,26 @@
+/*
+justify-content - alinhamento dos elementos conforme a direção(entenda como posição) desejada
+justify-content-flex-start; posiciona os elementos no início do container - PADRÃO
+ */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.box{
+  width: 10%;
+  min-width: 200px;
+  height: 120px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+/* class para cada um dos boxes - personalizando cada um */
+.box-1{background: #666;}
+.box-2{background: #888;}
+.box-3{background: #aaa;}
+.box-4{background: #ccc;}
