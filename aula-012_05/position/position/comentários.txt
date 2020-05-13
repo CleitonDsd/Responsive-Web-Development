@@ -1,0 +1,13 @@
+Position - mudar a posição do elemento, tirando-o do fluxo normal
+por padrão todo mundo é static.
+não adianta com static você delimitar uma nova posição pois ele não mudará
+Quando usamos position ganhamos 5 propriedades - ajudarão na nova posição
+top ou bottom / right ou left - não precisa usar as 4  - duas é suficiente
+z-index - mudar a ordem de sobreposição dos elementos - quanto maior o
+z-index mais a frente ele ficará.
+
+relative- mudança na posição do elemento tendo com referência o local onde ele foi criado quando era static.
+
+absolute - criar um novo contexto e o elemento abaixo dele passa a usar a sua posição enquanto era static. Ele muda a a forma como se posiciona porque agora ele tem uma posição absoluta em relação à pagina(browser). Cuidado também com a ideia de rigth e left bottom e top que é diferente quando comparado ao relative. No caso a div segunda está pegando como referência o body da página.
+
+Na div interna quando colocamos o absolute ele saiu da posição original, dentro do pai, e começou a usar a referência do body, ele não está respeitando(acompanhando) o elemento pai. Podemos fazer com esse deslocamento seja baseado pelo, para isso o PAI deve possuir um position diferente de static, o mais comum é relative.

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+/* mini reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.header-main {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    background-image: url(../images/praia2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* com position em 50% alinha o meo da imagem com o meio do container */
+    background-position: 50%;
+}
+
+.call {
+    width: 35vw;
+    height: 60vh;
+    background: #000;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+}
+
+
+/* EM - usa como base o tamanho da fonte do elemento pai
+  SEM - usa como base o elemento root(html) 
+*/
+
+.call-title {
+    font-size: 5.5rem;
+    font-weight: 100;
+}
+
+.call-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
