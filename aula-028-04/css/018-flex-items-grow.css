@@ -1,0 +1,38 @@
+/*
+
+Flex-items: grow; - define que um determinado elemento seja maior que os outros(larguras). Valor padrão em 0, ocupam um tamanho máximo baseado no conteúdo ou na largura.
+
+Temos 4 boxes de exemplo, três terão um valor padrão o outro ficará maior que os demais.
+
+
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.box {
+    width: 20%;
+    min-width: 200px;
+    height: 120px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.box-1 {
+    background: #666;
+}
+
+.box-2 {
+    background: #888;
+}
+
+.box-3 {
+    background: #aaa;
+}
+
+.box-4 {
+    background: #ccc;
+}
