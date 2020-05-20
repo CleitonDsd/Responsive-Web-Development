@@ -43,8 +43,41 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
+    position: absolute;
     left: 20px;
+}
+
+.gastronomiaImg {
+    background-image: url(../images/gastronomia1.jpg);
+}
+
+.eventosImg {
+    background-image: url(../images/eventos.jpg);
+}
+
+.hotelImg {
+    background-image: url(../images/hotel.png);
+}
+
+.kidsImg {
+    background-image: url(../images/kids.jpg);
+}
+
+.lazerImg {
+    background-image: url(../images/lazer.jpg);
+}
+
+.gastronomiaImg {
+    background-image: url(../images/gastronomia1.jpg);
+}
+
+.gastronomiaImg {
+    background-image: url(../images/gastronomia1.jpg);
+}
+
+.direita {
+    position: absolute;
+    left: 63%;
 }
 
 
@@ -60,4 +93,15 @@ body {
 .call-text {
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
 }

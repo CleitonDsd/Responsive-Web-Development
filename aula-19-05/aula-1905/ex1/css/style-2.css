@@ -1,0 +1,56 @@
+/* mini reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: calibri;
+    color: #fff;
+}
+
+.cabecalho {
+    height: 100px;
+    background: rgb(6, 15, 40);
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 50vh;
+    font-size: 1em;
+}
+
+.secao1 {
+    background: rgb(53, 96, 136);
+}
+
+.secao2 {
+    background: rgb(214, 38, 5);
+}
+
+
+/* medias do mobile para Desktop
+as medidas serão do menor para o maior sempre usando min-width */
+
+@media (min-width:800px) {
+    .box {
+        width: 50%;
+        font-size: 2em;
+    }
+}
+
+@media (min-width:1024px) {
+    .box {
+        width: 25%;
+        font-size: 2em;
+    }
+}
